@@ -4,7 +4,7 @@ const server = express();
 server.use(express.json());
 
 server.get('/', (req, res) => {
-  res.send('Hello world');
+  res.send('Hello world.');
 });
 
 server.listen(3333, () => {
